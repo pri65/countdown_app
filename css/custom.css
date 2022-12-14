@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@0,300;1,300&family=Ubuntu&family=Varela+Round&display=swap');
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: plum;
+    background-size: cover;
+}
+
+.overlay{
+    width:100% ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.title{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
